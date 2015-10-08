@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FlatHost - Responsive Hosting Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!--==============GOOGLE FONT - OPEN SANS=================-->
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+<!--==============MAIN CSS FOR COMING SOON PAGE=================-->
+
+<link href="css/hosting.css" rel="stylesheet">
+
+<!--==============Mordernizr =================-->
+
+<script src="js/modernizr.js"></script>
+
+<!--=================== Jquery STARTS=======================-->
+
+<script src="js/jquery-1.9.0.min.js"></script>
+
+<!--==============CONTACT FORM=================-->
+
+<script src="js/contact_form.js"></script>
+</head>
+<body>
+
+<!--==============Logo & Menu Bar=================-->
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html"> <img src="images/flathost-logo.png" alt="logo"></a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li class="hidden-sm"><a href="features.html">FEATURES</a></li>
+        <li class="hidden-sm"><a href="testimonials.html">PARTNERS</a></li>
+        <li><a href="pricing.html">PRICING</a></li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">BLOG <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="blog.html">Blog List</a></li>
+            <li><a href="blog-post.html">Single Blog page</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="contact.html">CONTACT</a></li>
+        <li><a href="#" role="button" data-toggle="modal" data-target="#Login">Login</a></li>
+        <li><a href="whmcs/register.php" role="button" class="btn btn-success">Sign Up</a></li>
+      </ul>
+      </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+    
+  </div>
+</nav>
+
+<!--============== Contact us ==============-->
+
+<div class="container" id="contact">
+  <div class="row PageHead">
+    <div class="col-md-12">
+      <h1>Submit a Twitch Highlight</h1>
+      <h3>Something awesome happened during a Twitch stream?</h3>
+    </div>
+  </div>
+  <div class="row ContactUs">
+    <div class="col-md-12">
+      <form class="form" id="phpcontactform">
+        <div class="form-group">
+        <h4>Twitch URL</h4>
+          <input class="form-control" type="text" placeholder="http://www.twitch.tv/playhearthstone/v/19317405" name="name" id="name">
+        </div>
+        <h4>Timestamp (hh:mm:ss)</h4>
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="03:42:17" name="email" id="email">
+        </div>
+        <div class="form-group">
+        <h4>E-Mail Address</h4>
+          <input class="form-control" type="text" placeholder="youremail@gmail.com" name="mobile" id="mobile">
+        </div>
+        <div class="form-group">
+        <h4>Description</h4>
+
+          <textarea class="form-control" rows="10" name="message" placeholder="A quick summary of the highlight..." id="message"></textarea>
+        </div>
+        <div class="form-group">
+          <p>
+            <input class="btn btn-success btn-lg" type="submit" value="Send Message" />
+          </p>
+          <span class="loading"></span> </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
